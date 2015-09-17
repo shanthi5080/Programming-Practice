@@ -16,7 +16,7 @@ public class HashMapEx {
 		      // Put elements to the map
 		      hm.put("Nitya", new Double(3434.34));
 		      hm.put("Supriya", new Double(123.22));
-		      hm.put("Diya", new Double(1378.00));
+		      hm.put("Bharti", new Double(1378.00));
 		      hm.put("Divya", new Double(99.22));
 		      hm.put("Shilpi", new Double(-19.08));
 		      
