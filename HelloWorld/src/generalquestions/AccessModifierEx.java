@@ -15,6 +15,13 @@ public class AccessModifierEx extends AccessModifierExParent {
 	}
 	//default int getName(int ssn){}
 	
-	protected void getAge(){}
+	//protected void getAge(){}
 
+	
+	public static void main(String[] args){
+		 AccessModifierEx ame =new  AccessModifierEx();
+		 ame.getAge();
+		 
+		 
+	}
 }

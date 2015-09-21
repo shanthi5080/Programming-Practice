@@ -6,9 +6,9 @@ public class WordStats1 {
 	public static void main(String[] args) {
 	    try {
 
-	        //Scanner input = new Scanner(new FileReader("C:\Shanthi-Apr-2015\Innovapath\Innovapath\data.txt"\"));
+	        Scanner input = new Scanner(new FileReader("C:/Shanthi/cook-money.txt"));
 	       
-	        PrintWriter output = new PrintWriter(new FileOutputStream("src\newfile.txt"));
+	        PrintWriter output = new PrintWriter(new FileOutputStream("C:/Shanthi/wordstats1.txt"));
 
 	        int lineNum = 0;
 	        int wordCount = 1;
@@ -18,7 +18,7 @@ public class WordStats1 {
 	            String line;
 	            line = input.nextLine();
 
-	            //output.println(lineNum + ": " + line);
+	            output.println(lineNum + ": " + line);
 
 	            lineNum++;
 
